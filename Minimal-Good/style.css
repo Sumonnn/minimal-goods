@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: antiquewhite;
+    font-family: "gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/*  ------------------p1----------------------- */
+.page1{
+    width: 100%;
+    height: 100vh; 
+    position: relative; 
+}
+.page1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.nav-page{
+    width: 100%;
+    background-color: #2E2A27;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+nav{
+    width: 95%;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2.5%;
+    
+    /* background-color: #2E2A27; */
+    border-bottom: 1px solid antiquewhite;
+}
+ nav>h1{
+    position: absolute;
+    z-index: 999;
+    bottom: 75%;
+    font-family: "Helvetica";
+    font-weight: 900;
+    font-size: 13vw;
+    letter-spacing: -5px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+nav h3{
+    font-size: 1vw;
+    font-weight: 500;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+}
+.nav-part1>h3:hover{
+    border-bottom: 1px solid antiquewhite;
+}
+/* -----------------p2---------------------- */
+/* .page2{
+    width: 100%;
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+    background-color: #2E2A27;
+} */
+.text-features{
+    width: 100%;
+    /* margin-top: 10%; */
+    /* height: 95vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 150px;
+    background-color: #2E2A27;
+    padding-top: 10%;
+    
+}
+.text-features h2{
+    /* margin-top: 10%; */
+    position: sticky;
+    top: 20%;
+    font-size: 10vw;
+    background-color: #2E2A27;
+    /* background-color: red; */
+}
+.text-features h2:nth-child(2){
+    /* background-color: #d2b6a2; */
+    background-color: #2E2A27; 
+    font-size: 8.1vw;
+    font-style: italic;
+    font-weight: 300;
+}
+.text-features h2:nth-last-child(3){
+    /* background-color: #ff6f00; */
+    background-color: #2E2A27;
+    font-size: 11vw;
+}
+.text-features h2:nth-last-child(2){
+    width: 50%;
+    height: 25vh;
+    /* background-color: #15b95c; */
+    background-color: #2E2A27;
+    font-size: 13vw;
+}
+.text-features h2:nth-last-child(1){
+    width: 50%;
+    height: 25.5vh;
+    /* background-color: #2e3430; */
+    background-color: #2E2A27;
+    font-size: 13vw;
+}
+/* -------------------------p3--------------------------------- */
+.page3{
+    width: 100%;
+    height: 100vh;
+    background-color: #2E2A27;
+    /* background-color: aqua; */
+}
+.img-circle{
+    width: 95%;
+    height: 100%;
+    margin-left: 2.5%;
+    /* background-color: blue; */
+}
+.img-circle>img{
+    width: 100%;
+    height: 100%;
+    /* margin-left: 2.5%; */
+    /* border-radius: 50%; */
+    /* scale: 0.5; */
+    object-fit: cover;
+    object-position: center;
+}
+/* --------------------wrapper-div------------------ */
+.wrapper-div{
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    /* background-color: #2E2A27; */
+    /* background-color: red; */
+    background-color: #E8E2DA;
+}
+.text-rows{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    /* background-color: aqua; */
+}
+.row{
+    width: 100%;
+    height: 10vh;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.text-rows .row>button{
+    padding: 2px 24px;
+    color: #2E2A27;
+    border-radius: 50px;
+    background-color: #E8E2DA;
+    border: 1px solid #2E2A27;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.main-wrapper-div{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-color: #E8E2DA;
+    /* background-color: #ff0000; */
+}
+.main-wrapper-div>h1{
+    /* background-color: aquamarine; */
+    font-size: 20vw;
+    position: sticky;
+    top:50%;
+    color: #2E2A27;
+}
+.upper-img{
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 8%;
+    /* background-color: #892be2aa; */
+}
+.first-img-section{
+    width: 100%;
+    height: 100vh;
+    /* top: 10%; */
+    position: relative;
+    /* background-color: antiquewhite; */
+}
+#img1{
+    width: 25%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    object-position: center;
+}
+#img2{
+    width: 15%;
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    object-fit: cover;
+    object-position: center;
+}
+#img3{
+    width: 12%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 9;
+    object-fit: cover;
+    object-position: center;
+}
+#img4{
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    right: 1%;
+    object-fit: cover;
+    object-position: center;
+}
+.second-img-section{
+    width: 100%;
+    height: 180vh;
+    margin-top: 50vh;
+    position: relative;
+    /* background-color: rgb(16, 249, 249); */
+}
+#img2-second{
+    width: 15%;
+    position: absolute;
+    left: 30%;
+    bottom: 55%;
+    object-fit: cover;
+    object-position: center;
+}
+#img4-second{
+    width: 30%;
+    position: absolute;
+    bottom: 35%;
+    right: 1%;
+    object-fit: cover;
+    object-position: center;
+}
+#img5{
+    width: 28%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+    object-position: center;   
+}
+#img6{
+    width: 25%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    z-index: 9;
+    object-position: center;  
+}
+.third-img-section{
+    width: 100%;
+    height: 100vh;
+    margin-top: 100vh;
+    position: relative;
+    /* background-color: rgba(255, 0, 0, 0.409); */
+}
+.fourth-img-section{
+    width: 100%;
+    height: 180vh;
+    margin-top: 50vh;
+    position: relative;
+    /* margin-top: 10vh; */
+    /* background-color: rgba(0, 255, 255, 0.432); */
+}
+.extra{
+    width: 100%;
+    height: 60vh;
+    /* background-color: red; */
+}
